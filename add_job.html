@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add a New Job</title>
+</head>
+<body>
+	<h1>Add a New Job</h1>
+	<form onsubmit="addJob(event)">
+		<label for="job_title">Job Title:</label>
+		<input type="text" id="job_title" name="job_title"><br><br>
+
+		<label for="location">Location:</label>
+		<input type="text" id="location" name="location"><br><br>
+
+		<label for="description">Description:</label><br>
+		<textarea id="description" name="description"></textarea><br><br>
+
+		<input type="submit" value="Add Job">
+	</form>
+
+	<script src="job_listings.js"></script>
+</body>
+</html>
